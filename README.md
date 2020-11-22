@@ -64,7 +64,7 @@ server {
     location / {
         root   /usr/share/nginx/html;
         index  index.html index.htm;
-        proxy_pass http://0.0.0.0:5000
+        proxy_pass http://0.0.0.0:5000;
     }
 }
 ```
